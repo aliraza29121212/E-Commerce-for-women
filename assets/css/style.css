@@ -36,14 +36,15 @@ a:hover {
 p {
   margin: 0;
 }
-.btn-danger {
+#buttonred {
   background: var(--bg-danger);
   border-color: var(--bg-danger);
   padding: 0.8rem 1.5rem;
+  color: white;
   font-size: 1rem;
   font-weight: 500;
 }
-.btn-danger:hover {
+#buttonred:hover {
   color: var(--text-danger);
   background: transparent;
 }
@@ -79,10 +80,36 @@ p {
   position: relative;
 }
 .home .home-banner-1 {
-  background-image: url(../images/slider5.jpg);
+  background-image: url(../images/slide2.jpg);
+  background-repeat: no-repeat;
 }
 .home .home-banner-2 {
-  background-image: url(../images/slide2.jpg);
+  background-image: url(../images/slider3.jpg);
+  background-repeat: no-repeat;
+}
+.home .home-banner .home-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+.home .home-banner .home-banner-text h1 {
+  font-size: 6rem;
+  color: var(--text-danger);
+}
+.home .carousel-indicators [data-bs-target] {
+  background-color: var(--bg-danger);
+  width: 2.5rem;
+  height: 0.313rem;
+}
+.home .carousel-control-prev-icon,
+.home .carousel-control-next-icon {
+  background: transparent;
+}
+.home .slider-icon {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--bg-danger);
 }
 /* Offer CSS */
 
