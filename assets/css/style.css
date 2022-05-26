@@ -49,9 +49,41 @@ p {
 }
 
 /* Navigation CSS */
+#header .fixed-top {
+  box-shadow: 0 0.125rem 0.675rem rgb(0 0 0/5%);
+}
+#header .navbar-nav .nav-item .nav-link {
+  color: var(--text-black);
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active {
+  color: var(--text-danger);
+}
+#header .navbar-toggler-icon {
+  width: unset;
+  height: unset;
+}
+#header .navbar-toggler:focus {
+  box-shadow: none;
+}
 
 /* Home CSS */
-
+.home .home-banner-1,
+.home .home-banner-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 650px;
+  position: relative;
+}
+.home .home-banner-1 {
+  background-image: url(../images/slider5.jpg);
+}
+.home .home-banner-2 {
+  background-image: url(../images/slide2.jpg);
+}
 /* Offer CSS */
 
 /* Special CSS */
@@ -62,4 +94,4 @@ p {
 
 /* Footer CSS */
 
-/* Scroll Back To Top */
+/* Scroll Back To Top */ ;
