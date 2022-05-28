@@ -55,7 +55,9 @@
   /* Offer CSS */
 
   /* Product CSS */
-
+  .products .up_to_content h2 {
+    font-size: 0.75rem;
+  }
   /* Special CSS */
 
   /* Testimonial CSS */

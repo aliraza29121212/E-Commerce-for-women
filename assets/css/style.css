@@ -249,6 +249,60 @@ p {
   top: 1.188rem;
   z-index: 99;
 }
+.product-list .product-name h3:hover {
+  color: var(--text-danger);
+}
+.product-list .product-name .amount {
+  color: var(--text-danger);
+  font-weight: 500;
+}
+.product-list .product-name .amount del {
+  color: var(--text-gray);
+}
+.product-list .product-name .ti-star.active {
+  color: var(--text-danger);
+}
+.product-list .product-name .add_to_Card {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+.product-list .product-name .add_to_Card:hover {
+  color: var(--text-danger);
+}
+.products .up-to-off {
+  position: relative;
+}
+.products .up-to-off::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.products .up-to-off img {
+  transition: 0.5s;
+}
+.products .up-to-off:hover img {
+  transform: scale(1.1);
+}
+.products .up_to_content h2 {
+  color: var(--bg-white);
+  font-size: 1.625rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
 /* Testimonial CSS */
 
 /* Contact CSS */
