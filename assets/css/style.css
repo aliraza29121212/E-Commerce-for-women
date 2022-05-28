@@ -164,7 +164,44 @@ p {
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
-
+.offers .offer-box .offer-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  transition: all 250ms ease-out;
+  justify-content: center;
+  align-items: center;
+}
+.offers .offer-box .offer-info .heading-bigger {
+  font-size: 4.375rem;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: var(--text-white);
+}
+.offers .offer-box .offer-info .offer-title-1 {
+  color: var(--text-white);
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+.offers .offer-box .offer-info #buttonred {
+  color: var(--text-white);
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  border-color: var(--bg-white);
+}
+.offers .offer-box .offer-info #buttonred:hover {
+  border-color: var(--bg-danger);
+  background-color: var(--bg-danger);
+}
 /* Special CSS */
 
 /* Testimonial CSS */
