@@ -33,6 +33,12 @@
     padding-bottom: 5rem;
   }
   /* Testimonial CSS */
+  .testimonial .carousel-control-prev {
+    left: -1.75rem;
+  }
+  .testimonial .carousel-control-next {
+    right: -1.75rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -75,6 +81,13 @@
   }
 
   /* Testimonial CSS */
+  .testimonial .carousel-control-prev-icon,
+  .testimonial .carousel-control-next-icon {
+    display: none;
+  }
+  .testimonial .testimonial-wrapper {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 330px) {
